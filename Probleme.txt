@@ -1,0 +1,6 @@
+- Probleme lié au server --dev
+    composer require symfony/web-server-bundle --dev ^4.4.2
+
+- Lancer le server web sur le port 8000 par défaut
+    php bin/console server:run
+
