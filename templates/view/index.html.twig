@@ -1,288 +1,334 @@
-
-
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
-	<head>
+<!--[if gt IE 9]><!-->
+<html>
+<!--<![endif]-->
 
-		<!-- Basic -->
-		<meta charset="utf-8">
-		<title>Systema - Russian Martial Arts</title>
-		<meta name="keywords" content="Russian Martial Arts" />
-		<meta name="description" content="Russian Martial Arts">
-		<meta name="author" content="Symlink.rs">
+<head>
 
-		<LINK REL="shortcut icon" href="/images/SystemaWarrior.ico">
-		
-		<!-- Mobile Metas -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Basic -->
+	<meta charset="utf-8">
+	<title>Systema - Russian Martial Arts</title>
+	<meta name="keywords" content="Russian Martial Arts" />
+	<meta name="description" content="Russian Martial Arts">
+	<meta name="author" content="Symlink.rs">
+	{# ----------------------------- #}
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
 
-		<!-- Web Fonts  -->
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+	{# -------------------------------- #}
 
-		<!-- Libs CSS -->
-		<link rel="stylesheet" href="https://russianmartialart.com/css/bootstrap.css">
-		<link rel="stylesheet" href="https://russianmartialart.com/css/fonts/font-awesome/css/font-awesome.css">
-		<link rel="stylesheet" href="https://russianmartialart.com/vendor/flexslider/flexslider.css" media="screen" />
-		<link rel="stylesheet" href="https://russianmartialart.com/vendor/fancybox/jquery.fancybox.css" media="screen" />
+	<LINK REL="shortcut icon" href="/images/SystemaWarrior.ico">
 
-		<!-- Theme CSS -->
-		<link rel="stylesheet" href="https://russianmartialart.com/css/theme.css">
-		<link rel="stylesheet" href="https://russianmartialart.com/css/theme-elements.css">
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="https://russianmartialart.com/css/bootstrap-responsive.css" />
-		<link rel="stylesheet" href="https://russianmartialart.com/css/theme-responsive.css" />
+	<!-- Web Fonts  -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light"
+		rel="stylesheet" type="text/css">
 
-		<!-- Custom Styles -->
-		<link rel="stylesheet" href="https://russianmartialart.com/css/style.css">
+	<!-- Libs CSS -->
+	<link rel="stylesheet" href="https://russianmartialart.com/css/bootstrap.css">
+	<link rel="stylesheet" href="https://russianmartialart.com/css/fonts/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="https://russianmartialart.com/vendor/flexslider/flexslider.css" media="screen" />
+	<link rel="stylesheet" href="https://russianmartialart.com/vendor/fancybox/jquery.fancybox.css" media="screen" />
 
-		<!-- Current Page Styles -->
-		<link rel="stylesheet" href="https://russianmartialart.com/vendor/revolution-slider/css/settings.css" media="screen" />
-		<link rel="stylesheet" href="https://russianmartialart.com/vendor/revolution-slider/css/captions.css" media="screen" />
-		<link rel="stylesheet" href="https://russianmartialart.com/vendor/circle-flip-slideshow/css/component.css" media="screen" />
+	<!-- Theme CSS -->
+	<link rel="stylesheet" href="https://russianmartialart.com/css/theme.css">
+	<link rel="stylesheet" href="https://russianmartialart.com/css/theme-elements.css">
 
-		<!-- Favicons -->
-		<!-- link rel="shortcut icon" href="img/favicon.ico" -->
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="https://russianmartialart.com/img/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="https://russianmartialart.com/img/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="https://russianmartialart.com/img/apple-touch-icon-144x144.png">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="https://russianmartialart.com/css/bootstrap-responsive.css" />
+	<link rel="stylesheet" href="https://russianmartialart.com/css/theme-responsive.css" />
 
-		<link rel="stylesheet" type="text/css" href="https://russianmartialart.com/js/slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="https://russianmartialart.com/js/slick/slick-theme.css"/>
+	<!-- Custom Styles -->
+	<link rel="stylesheet" href="https://russianmartialart.com/css/style.css">
 
-		<!-- Head Libs -->
-		<script src="https://russianmartialart.com/vendor/modernizr.js"></script>
+	<!-- Current Page Styles -->
+	<link rel="stylesheet" href="https://russianmartialart.com/vendor/revolution-slider/css/settings.css"
+		media="screen" />
+	<link rel="stylesheet" href="https://russianmartialart.com/vendor/revolution-slider/css/captions.css"
+		media="screen" />
+	<link rel="stylesheet" href="https://russianmartialart.com/vendor/circle-flip-slideshow/css/component.css"
+		media="screen" />
 
-		<!--[if IE]>
+	<!-- Favicons -->
+	<!-- link rel="shortcut icon" href="img/favicon.ico" -->
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://russianmartialart.com/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://russianmartialart.com/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://russianmartialart.com/img/apple-touch-icon-144x144.png">
+
+	<link rel="stylesheet" type="text/css" href="https://russianmartialart.com/js/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="https://russianmartialart.com/js/slick/slick-theme.css" />
+
+	<!-- Head Libs -->
+	<script src="https://russianmartialart.com/vendor/modernizr.js"></script>
+
+	<!--[if IE]>
 			<link rel="stylesheet" href="css/ie.css">
 		<![endif]-->
 
-		<!--[if lte IE 8]>
+	<!--[if lte IE 8]>
 			<script src="vendor/respond.js"></script>
 		<![endif]-->
-		<style>
-			h2 {font-size: 1.8em;}
-			.dropdown-menu { 
-				left: 0;
-				top: 100%;
-			}
-		</style>
+	<style>
+		h2 {
+			font-size: 1.8em;
+		}
 
-		<!-- Facebook Pixel Code -->
-		<script>
-		!function(f,b,e,v,n,t,s)
-		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-		n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];
-		s.parentNode.insertBefore(t,s)}(window, document,'script',
-		'https://connect.facebook.net/en_US/fbevents.js');
+		.dropdown-menu {
+			left: 0;
+			top: 100%;
+		}
+	</style>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
 		fbq('init', '586934152485757');
 		fbq('track', 'PageView');
-		</script>
-		<noscript><img height="1" width="1" style="display:none"
-		src="https://www.facebook.com/tr?id=586934152485757&ev=PageView&noscript=1"
-		/></noscript>
-		<!-- End Facebook Pixel Code -->
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=586934152485757&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
 
-		<meta name="facebook-domain-verification" content="646euosrjbwngodx2gqyt5qabg4t4z" />
+	<meta name="facebook-domain-verification" content="646euosrjbwngodx2gqyt5qabg4t4z" />
 
-		<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KTR89QP');</script>
-<!-- End Google Tag Manager -->
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-KTR89QP');
+	</script>
+	<!-- End Google Tag Manager -->
 
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTR89QP" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
+</head>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTR89QP"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<body>
 
-	</head>
-	<body>
-
-		<div class="body">
-			<header class="index-header">
-				<div class="container">
-					<!-- <div class="emblem"> -->
-						<a href="index.php" class="emblem">
-							<img style="width: 270px;" alt="Systema RMA" src="img/logo_combined.png">
-						</a>
-					<!-- </div> -->
-					<!-- <div class="logo_text"> -->
-						<!--a href="index.php" class="logo_text">
+	<div class="body">
+		<header class="index-header">
+			<div class="container">
+				<!-- <div class="emblem"> -->
+				<a href="index.php" class="emblem">
+					<img style="width: 270px;" alt="Systema RMA" src="img/logo_combined.png">
+				</a>
+				<!-- </div> -->
+				<!-- <div class="logo_text"> -->
+				<!--a href="index.php" class="logo_text">
 							<img alt="Systema RMA" src="img/logo_text.png">
 						</a -->
-					<!-- </div> -->
-					<div class="search">
-						<form class="form-search">
-							<div class="social-icons social-header">
-						<!--<a class="ttc" href="https://www.tiktok.com/@systemavasiliev" title="TikTok" data-placement="bottom" rel="tooltip"><i class="fab fa-tiktok"></i><span>TikTok</span></a>-->
-						<!--<a class="ttc" href="https://www.patreon.com/systemavasiliev" title="Patreon" data-placement="bottom" rel="tooltip"><i class="patreon-button link-button"></i><span>Patreon</span></a>-->
-						<a class="fbc" href="http://www.facebook.com/systemavasiliev" target="_blank" title="Facebook" data-placement="bottom" rel="tooltip"><i class="icon-facebook"></i><span>Facebook</span></a>
-						<a class="gpc" href="https://www.youtube.com/user/vvasiliev" title="YouTube" data-placement="bottom" rel="tooltip"><i class="icon-youtube"></i><span>YouTube</span></a>
-						<a class="igc" href="https://www.instagram.com/systemavasiliev/" target="_blank" title="Instagram" data-placement="bottom" rel="tooltip"><i class="icon-instagram"></i><span>Instagram</span></a>
-						<a class="twc" href="http://twitter.com/systemavasiliev" title="Twitter" data-placement="bottom" rel="tooltip"><i class="icon-twitter"></i><span>Twitter</span></a>
-<!--						<a class="gpc" href="http://www.google.com/profiles/systemavasiliev" title="Google+" data-placement="bottom" rel="tooltip"><i class="icon-google-plus"></i><span>Google+</span></a>-->
-					
-<!--						<a href="http://feeds.feedburner.com/systemanews" title="RSS" data-placement="bottom" rel="tooltip"><i class="icon-rss"></i><span>RSS</span></a>-->
-							</div>
-							<!-- input type="text" class="input-medium search-query" placeholder="Search...">
+				<!-- </div> -->
+				<div class="search">
+					<form class="form-search">
+						<div class="social-icons social-header">
+							<!--<a class="ttc" href="https://www.tiktok.com/@systemavasiliev" title="TikTok" data-placement="bottom" rel="tooltip"><i class="fab fa-tiktok"></i><span>TikTok</span></a>-->
+							<!--<a class="ttc" href="https://www.patreon.com/systemavasiliev" title="Patreon" data-placement="bottom" rel="tooltip"><i class="patreon-button link-button"></i><span>Patreon</span></a>-->
+							<a class="fbc" href="http://www.facebook.com/systemavasiliev" target="_blank"
+								title="Facebook" data-placement="bottom" rel="tooltip"><i
+									class="icon-facebook"></i><span>Facebook</span></a>
+							<a class="gpc" href="https://www.youtube.com/user/vvasiliev" title="YouTube"
+								data-placement="bottom" rel="tooltip"><i
+									class="icon-youtube"></i><span>YouTube</span></a>
+							<a class="igc" href="https://www.instagram.com/systemavasiliev/" target="_blank"
+								title="Instagram" data-placement="bottom" rel="tooltip"><i
+									class="icon-instagram"></i><span>Instagram</span></a>
+							<a class="twc" href="http://twitter.com/systemavasiliev" title="Twitter"
+								data-placement="bottom" rel="tooltip"><i
+									class="icon-twitter"></i><span>Twitter</span></a>
+							<!--						<a class="gpc" href="http://www.google.com/profiles/systemavasiliev" title="Google+" data-placement="bottom" rel="tooltip"><i class="icon-google-plus"></i><span>Google+</span></a>-->
+
+							<!--						<a href="http://feeds.feedburner.com/systemanews" title="RSS" data-placement="bottom" rel="tooltip"><i class="icon-rss"></i><span>RSS</span></a>-->
+						</div>
+						<!-- input type="text" class="input-medium search-query" placeholder="Search...">
 							<button class="search" type="submit"><i class="icon-search"></i></button -->
-						</form>
-					</div>
-					
-					<!-- <div class="social-icons">
+					</form>
+				</div>
+
+				<!-- <div class="social-icons">
 						<a href="https://www.patreon.com/systemavasiliev" target="_blank" title="Patreon" data-placement="bottom" rel="tooltip"><i class="icon-patreon-button"></i><span>Facebook</span></a>
 						<a href="http://www.facebook.com/systemavasiliev" target="_blank" title="Facebook" data-placement="bottom" rel="tooltip"><i class="icon-facebook"></i><span>Facebook</span></a>
 						<a href="http://twitter.com/systemavasiliev" title="Twitter" data-placement="bottom" rel="tooltip"><i class="icon-twitter"></i><span>Twitter</span></a>
 						<a href="http://www.google.com/profiles/systemavasiliev" title="Google+" data-placement="bottom" rel="tooltip"><i class="icon-google-plus"></i><span>Linkedin</span></a>
 						<a href="http://feeds.feedburner.com/systemanews" title="RSS" data-placement="bottom" rel="tooltip"><i class="icon-rss"></i><span>RSS</span></a>
 					</div> -->
-					<nav class="visible-desktop">
-							<ul class="nav nav-pills nav-main index-nav" id="mainMenu">
-								<li class="active">
-									<a href="index.php">Home</a>
-								</li>
-								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown">
-										About
-										<i class="icon-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu">
-										<!--li>About</li-->
-										<!-- <li><a href="">Our approach</a></li> -->
-										<li><a href="whatis.php">What is Systema</a></li>
-										<li><a href="founders.php">Head Instructors</a></li>
-										<li><a href="training.php">Training</a></li>
-										<li><a href="questions.php">FAQs</a></li>
-										<li><a href="gallery.php">Photo Galleries</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown" data-delay="500">
-										Learning Systema
-										<i class="icon-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a href="instructionalfilms.php">Instructional Films</a></li>
-										<li><a href="schoollocator.php">School Locator</a></li>
-										<li><a href="findpartners.php">Find Training Partners</a></li>
-										<li><a href="videoprogram.php">Systema Video Program</a></li>
-										<li><a href="trainingtips.php?tPath=1">Training Tips/Articles</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-										Toronto School
-										<i class="icon-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a href="schedule.php">Class Schedule</a></li>
-										<li><a href="adult.php">Adult Classes</a></li>
-										<li><a href="youth.php">Youth Program</a></li>
-										<li><a href="join.php">How to Join</a></li>
-										<li><a href="directions.php">Directions</a></li>
-										<li><a href="visittoronto.php">Visit Toronto</a></li>
-									</ul>		
-								</li>
-								<li class="">
-									<a href="onlineclasses.php">Online Classes</a>
-								</li>
-								<li class="">
-									<a href="camp.php">Camp</a>
-								</li>
-								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown" data-delay="500">
-										Seminars
-										<i class="icon-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a href="seminars.php">Seminars by Vladimir Vasiliev</a></li>
-										<li><a href="affiliate_events.php">Affiliate Events</a></li>
-										<li><a href="hostseminar.php">Host a Seminar</a></li>
-										<li><a href="seminar_request.php">Seminar Request Form</a></li>
-										<li><a href="seminarreviews.php">Seminar Reviews</a></li>
-									</ul>		
-				
-								</li>
-								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown" data-delay="500">
-										Testimonials
-										<i class="icon-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a href="tstudents.php">Students</a></li>
-										<li><a href="texperts.php">Experts</a></li>
-										<li><a href="tmedia.php">Media</a></li>
-										<li><a href="productreviews.php">Product Reviews</a></li> 
-																		</ul>	
-								</li>
-								<li>
-									<a href="contact.php">Contact</a>
-								<li>
-									<a href="https://www.systemavasiliev.com/store">
-										<i class="icon-shopping-cart"></i>
-										Store</a>
-								</li>
+				<nav class="visible-desktop">
+					<ul class="nav nav-pills nav-main index-nav" id="mainMenu">
+						<li class="active">
+							<a href="index.php">Home</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown">
+								About
+								<i class="icon-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<!--li>About</li-->
+								<!-- <li><a href="">Our approach</a></li> -->
+								<li><a href="whatis.php">What is Systema</a></li>
+								<li><a href="founders.php">Head Instructors</a></li>
+								<li><a href="training.php">Training</a></li>
+								<li><a href="questions.php">FAQs</a></li>
+								<li><a href="gallery.php">Photo Galleries</a></li>
 							</ul>
-						</nav>
-						<div class="navbar hidden-desktop">
-  <div class="navbar-inner">
-    <div class="container">
- 
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
- 
-      <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">Menu</a>
- 
-      <!-- Everything you want hidden at 940px or less, place within here -->
-      <div class="nav-collapse collapse">
-        <!-- .nav, .navbar-search, .navbar-form, etc -->
-        <ul class="nav">
-							<li class="active">
-									<a href="index.php">Home</a>
-								</li>
-								<!-- <li class="dropdown"> -->
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown"
+								data-delay="500">
+								Learning Systema
+								<i class="icon-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="instructionalfilms.php">Instructional Films</a></li>
+								<li><a href="schoollocator.php">School Locator</a></li>
+								<li><a href="findpartners.php">Find Training Partners</a></li>
+								<li><a href="videoprogram.php">Systema Video Program</a></li>
+								<li><a href="trainingtips.php?tPath=1">Training Tips/Articles</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								Toronto School
+								<i class="icon-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="schedule.php">Class Schedule</a></li>
+								<li><a href="adult.php">Adult Classes</a></li>
+								<li><a href="youth.php">Youth Program</a></li>
+								<li><a href="join.php">How to Join</a></li>
+								<li><a href="directions.php">Directions</a></li>
+								<li><a href="visittoronto.php">Visit Toronto</a></li>
+							</ul>
+						</li>
+						<li class="">
+							<a href="onlineclasses.php">Online Classes</a>
+						</li>
+						<li class="">
+							<a href="camp.php">Camp</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown"
+								data-delay="500">
+								Seminars
+								<i class="icon-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="seminars.php">Seminars by Vladimir Vasiliev</a></li>
+								<li><a href="affiliate_events.php">Affiliate Events</a></li>
+								<li><a href="hostseminar.php">Host a Seminar</a></li>
+								<li><a href="seminar_request.php">Seminar Request Form</a></li>
+								<li><a href="seminarreviews.php">Seminar Reviews</a></li>
+							</ul>
+
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown"
+								data-delay="500">
+								Testimonials
+								<i class="icon-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="tstudents.php">Students</a></li>
+								<li><a href="texperts.php">Experts</a></li>
+								<li><a href="tmedia.php">Media</a></li>
+								<li><a href="productreviews.php">Product Reviews</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="contact.php">Contact</a>
+						<li>
+							<a href="https://www.systemavasiliev.com/store">
+								<i class="icon-shopping-cart"></i>
+								Store</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="navbar hidden-desktop">
+					<div class="navbar-inner">
+						<div class="container">
+
+							<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</a>
+
+							<!-- Be sure to leave the brand out there if you want it shown -->
+							<a class="brand" href="#">Menu</a>
+
+							<!-- Everything you want hidden at 940px or less, place within here -->
+							<div class="nav-collapse collapse">
+								<!-- .nav, .navbar-search, .navbar-form, etc -->
+								<ul class="nav">
+									<li class="active">
+										<a href="index.php">Home</a>
+									</li>
+									<!-- <li class="dropdown"> -->
 									<!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 										About
 										<i class="icon-angle-down"></i>
 									</a> -->
 									<!-- <ul class="dropdown-menu"> -->
-										<li>About</li>
-										<!-- <li><a href="">Our approach</a></li> -->
-										<li><a href="whatis.php">What is Systema</a></li>
-										<li><a href="founders.php">Head Instructors</a></li>
-										<li><a href="training.php">Training</a></li>
-										<li><a href="questions.php">FAQs</a></li>
-										<li><a href="gallery.php">Photo Galleries</a></li>
+									<li>About</li>
+									<!-- <li><a href="">Our approach</a></li> -->
+									<li><a href="whatis.php">What is Systema</a></li>
+									<li><a href="founders.php">Head Instructors</a></li>
+									<li><a href="training.php">Training</a></li>
+									<li><a href="questions.php">FAQs</a></li>
+									<li><a href="gallery.php">Photo Galleries</a></li>
 									<!-- </ul> -->
-								<!-- </li> -->
-								<!-- <li class="dropdown">
+									<!-- </li> -->
+									<!-- <li class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 										Learning Systema
 										<i class="icon-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu"> -->
-										<li>Learning Systema</li>
-										<li><a href="instructionalfilms.php">Instructional Films</a></li>
-										<li><a href="schoollocator.php">School Locator</a></li>
-										<li><a href="findpartners.php">Find Training Partners</a></li>
-										<li><a href="videoprogram.php">Systema Video Program</a></li>
-										<li><a href="trainingtips.php?tPath=1">Training Tips/Articles</a></li>
+									<li>Learning Systema</li>
+									<li><a href="instructionalfilms.php">Instructional Films</a></li>
+									<li><a href="schoollocator.php">School Locator</a></li>
+									<li><a href="findpartners.php">Find Training Partners</a></li>
+									<li><a href="videoprogram.php">Systema Video Program</a></li>
+									<li><a href="trainingtips.php?tPath=1">Training Tips/Articles</a></li>
 									<!-- </ul>
 								</li>
 								<li class="dropdown">
@@ -291,13 +337,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<i class="icon-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu"> -->
-										<li>Toronto School</li>
-										<li><a href="schedule.php">Class Schedule</a></li>
-										<li><a href="adult.php">Adult Classes</a></li>
-										<li><a href="youth.php">Youth Program</a></li>
-										<li><a href="join.php">How to Join</a></li>
-										<li><a href="directions.php">Directions</a></li>
-										<li><a href="visittoronto.php">Visit Toronto</a></li>
+									<li>Toronto School</li>
+									<li><a href="schedule.php">Class Schedule</a></li>
+									<li><a href="adult.php">Adult Classes</a></li>
+									<li><a href="youth.php">Youth Program</a></li>
+									<li><a href="join.php">How to Join</a></li>
+									<li><a href="directions.php">Directions</a></li>
+									<li><a href="visittoronto.php">Visit Toronto</a></li>
 									<!-- </ul>		
 								</li>
 										<li><a href="onlineclasses.php">Online Classes</a></li>
@@ -309,14 +355,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<i class="icon-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu"> -->
-						
-										
-										<li>Seminars</li>
-										<li><a href="seminars.php">Seminars by Vladimir Vasiliev</a></li>
-										<li><a href="affiliate_events.php">Affiliate Events</a></li>
-										<li><a href="hostseminar.php">Host a Seminar</a></li>
-										<li><a href="seminar_request.php">Seminar Request Form</a></li>
-										<li><a href="seminarreviews.php">Seminar Reviews</a></li>
+
+									<li>Seminars</li>
+									<li><a href="seminars.php">Seminars by Vladimir Vasiliev</a></li>
+									<li><a href="affiliate_events.php">Affiliate Events</a></li>
+									<li><a href="hostseminar.php">Host a Seminar</a></li>
+									<li><a href="seminar_request.php">Seminar Request Form</a></li>
+									<li><a href="seminarreviews.php">Seminar Reviews</a></li>
 									<!-- </ul>		
 				
 								</li>
@@ -326,46 +371,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<i class="icon-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu"> -->
-										<li>Testimonials</li>
-										<li><a href="tstudents.php">Students</a></li>
-										<li><a href="texperts.php">Experts</a></li>
-										<li><a href="tmedia.php">Media</a></li>
-										<li><a href="productreviews.php">Product Reviews</a></li> 
-																			<!-- </ul>	
+									<li>Testimonials</li>
+									<li><a href="tstudents.php">Students</a></li>
+									<li><a href="texperts.php">Experts</a></li>
+									<li><a href="tmedia.php">Media</a></li>
+									<li><a href="productreviews.php">Product Reviews</a></li>
+									<!-- </ul>	
 								</li> -->
-								<li>
-									<a href="contact.php">Contact</a>
-								<li>
-									<a href="https://www.systemavasiliev.com/store">
-										<i class="icon-shopping-cart"></i>
-										Store</a>
-								</li>
-							</ul>
-      </div>
- 
-    </div>
-  </div>
-</div>
-				</div>
-			</header>
+									<li>
+										<a href="contact.php">Contact</a>
+									<li>
+										<a href="https://www.systemavasiliev.com/store">
+											<i class="icon-shopping-cart"></i>
+											Store</a>
+									</li>
+								</ul>
+							</div>
 
-			<div role="main" class="main">
-				<div id="content" class="content full">
-					<div class="gray-container">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div role="main" class="main">
+			<div id="content" class="content full">
+				<div class="gray-container">
 					<div class="slider-container container">
 						<div class="row slider1" id="revolutionSlider2">
-				
-				
-			<div>
-				<a class="nonane"
-					href="https://systemavasiliev.com/store/product/breath_integration/">
-					<img src="https://russianmartialart.com/img/slides/BREATH_INTEGRATION_BANNER.jpg" data1-fullwidthcentering="on"
-						alt="">
-				</a>
-                                       
-			</div>				
 
-			<!--<div>
+							<div>
+							<a class="nonane"
+								href="https://systemavasiliev.com/store/product/breath_integration/">
+								<img src="https://russianmartialart.com/img/slides/BREATH_INTEGRATION_BANNER.jpg" data1-fullwidthcentering="on"
+									alt="">
+							</a>
+												
+						</div>	
+							{# <div>
+								<a class="nonane" href="#">
+									<video width="100%" height="auto" controls autoplay>
+										<source src="https://youtu.be/EsAMf2-ET6k" type="video/mp4">
+										Votre navigateur ne supporte pas la balise vidéo.
+									</video>
+								</a>
+							</div> #}
+
+							<!--<div>
                                            <a class="nonane"
                                               href="https://bit.ly/ConflictandCrimeTrilogy">
                                                <img src="img/slides/CONFLICT_CRIME_X3_BANNER.jpg" data1-fullwidthcentering="on"
@@ -381,25 +433,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div>-->
 
-							
-
-				             	
-
-				
-
-			
-
-
-
-                          
-                           
-							
-
-
-			
-
-
-                           <!--<div>
+							<!--<div>
                                            <a class="nonane"
                                               href="http://systemamilano.it/">
                                                <img src="img/slides/MILANO_WEBSLIDER_SYSTEMAHQ_JULY11_PM.jpg" data1-fullwidthcentering="on"
@@ -407,10 +441,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div> -->
 
-
-
-                   
-                          <!-- <div>
+							<!-- <div>
                                            <a class="nonane"
                                               href="https://systemavasiliev.com/store/product/edge-secrets-of-the-russian-blade-masters/">
                                                <img src="img/slides/EDGE_WebSlider.jpg" data1-fullwidthcentering="on"
@@ -418,10 +449,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div> -->
 
-
-
-
-                                       <!--div>
+							<!--div>
                                            <a class="nonane"
                                               href="https://systemavasiliev.com/store/product/strikes-soul-meets-body-e-book/">
                                                <img src="img/slides/Strikes_ebook_webslider.jpg" data1-fullwidthcentering="on"
@@ -429,9 +457,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div -->
 
-
-
-                                       <!-- div>
+							<!-- div>
                                            <a class="nonane"
                                               href="http://www.russianmartialart.com/visittoronto.php">
                                                <img src="img/slides/Train_at_slider.jpg" data1-fullwidthcentering="on"
@@ -439,7 +465,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div -->
 
-                                       <!-- div>
+							<!-- div>
                                            <a class="nonane"
                                               href="http://www.russianmartialart.com/seminars.php">
                                                <img src="img/slides/13_International_seminars.jpg" data1-fullwidthcentering="on"
@@ -447,7 +473,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div -->
 
-                                       <!--div>
+							<!--div>
                                            <a class="nonane"
                                               href="http://www.russianmartialart.com/youth.php">
                                                <img src="img/slides/youth_slider.jpg" data1-fullwidthcentering="on"
@@ -455,7 +481,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div-->
 
-                                       <!--div>
+							<!--div>
                                            <a class="nonane"
                                               href="http://russianmartialart.com/camp.php">
                                                <img src="img/slides/1_Control_Knife_in_Fight_s.jpg" data1-fullwidthcentering="on"
@@ -463,7 +489,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div-->
 
-                                       <!--div>
+							<!--div>
                                            <a class="nonane"
                                               href="http://russianmartialart.com/schedule.php">
                                                <img src="img/slides/2_Strike_to_Prevail_s.jpg" data1-fullwidthcentering="on"
@@ -471,7 +497,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div-->
 
-                                       <!--div>
+							<!--div>
                                            <a class="nonane"
                                               href="https://systemavasiliev.com/store/product/lessons-from-camp-downloadable/">
                                                <img src="img/slides/7_Fighting_in_Water_s.jpg" data1-fullwidthcentering="on"
@@ -479,7 +505,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                            </a>
                                        </div-->
 
-                                       <!--div>
+							<!--div>
                                            <a class="nonane"
                                               href="https://systemavasiliev.com/store/product/beat-the-odds-downloadable/">
                                                <img src="img/slides/10_Beat_the_Odds_s.jpg" data1-fullwidthcentering="on"
@@ -490,55 +516,81 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</div>
 
 					</div>
-					</div> <!-- container gray -->
+				</div> <!-- container gray -->
 
-					<div class="gray-section">
-						<section class="featured footer" style="border: none;">
-							<div class="container">
-								<div class="row">
-									<div class="span6">
-												<h2 class="inlinebl">Subscribe to <strong>Newsletter</strong></h2>
-												
-												<form name="subscribe" class="form-inline newsletter-box" action="subscribed.php" method="post">
-													<!--form name="subscribe" action="main.php?page=subscribed" method="post" -->
-													<div class="input-append">
-														<input class="span2" name="email" placeholder="Email Address" type="text">
-														<button class="btn" type="button" onclick="javascript:submit_subscribe_form('subscribe');">Go!</button>
-														
-													    <input type="hidden" name="pw-conf" />
-														<input type="hidden" name="pw" />
-														<input type="hidden" name="email-button" value="Subscribe" />
-													</div>
-												</form>
-												
-												<!-- p class="">Subscribe to our newsletter and get a <a href="https://systemavasiliev.com/store/product/free-dvd-systema-instruction-and-preview/4">FREE DVD</a>. Shipping is free for USA and Canada.</p -->
-												<!--  class="front-h2" -->
-												<!-- 
+				<div class="gray-section">
+					<section class="featured footer" style="border: none;">
+						<div class="container">
+							<div class="row">
+								<div class="span6">
+									<h2 class="inlinebl">Subscribe to <strong>Newsletter</strong></h2>
+
+									<form name="subscribe" class="form-inline newsletter-box" action="subscribed.php"
+										method="post">
+										<!--form name="subscribe" action="main.php?page=subscribed" method="post" -->
+										<div class="input-append">
+											<input class="span2" name="email" placeholder="Email Address" type="text">
+											<button class="btn" type="button"
+												onclick="javascript:submit_subscribe_form('subscribe');">Go!</button>
+
+											<input type="hidden" name="pw-conf" />
+											<input type="hidden" name="pw" />
+											<input type="hidden" name="email-button" value="Subscribe" />
+										</div>
+									</form>
+
+									<!-- p class="">Subscribe to our newsletter and get a <a href="https://systemavasiliev.com/store/product/free-dvd-systema-instruction-and-preview/4">FREE DVD</a>. Shipping is free for USA and Canada.</p -->
+									<!--  class="front-h2" -->
+									<!-- 
 												<h2 ><div class="pi"><i class="icon-shopping-cart hpi"></div></i>Order <strong><a href="/catalog/">Online</a></strong></h2>
 												<h2 ><div class="pi"><i class="icon-group hpi"></div></i>Take <strong><a href="schedule.php">Classes</a></strong></h2>
 												<h2 ><div class="pi"><i class="icon-globe hpi"></i></div>Attend <strong><a href="seminars.php">Seminars</a></strong></h2>
 												<h2 ><div class="pi"><i class="icon-map-marker hpi"></div></i>Find a <strong><a href="schoollocator.php">School</a></strong></h2>
 												<h2 ><div class="pi"><i class="icon-film hpi"></div></i>Get <strong> <a href="catalog/product_info.php?cPath=24&products_id=124">Free DVD</a></strong></h2>
 												-->
-												
-												<h2 ><div class="pi"><a href="https://www.systemavasiliev.com/store"><img src="img/icons/icon_store.png" width="150px" /></a></div>Order <strong><a href="https://www.systemavasiliev.com/store">Online</a></strong></h2>
-												<h2 ><div class="pi"><a href="schedule.php"><img src="img/icons/icon_train.png" /></a></div>Take <strong><a href="schedule.php">Classes</a></strong></h2>
-												<h2 ><div class="pi"><a href="seminars.php"><img src="img/icons/icon_globe.png" /></a></div>Attend <strong><a href="seminars.php">Seminars</a></strong></h2>
-												<h2 ><div class="pi"><a href="schoollocator.php"><img src="img/icons/icon_location.png" /></a></div>Find a <strong><a href="schoollocator.php">School</a></strong></h2>
-												<h2 ><div class="pi"><a href="visittoronto.php"><img src="img/icons/icon_visit.png" style="max-width:35px;" /></a></div>Visit <strong><a href="visittoronto.php">Toronto</a></strong></h2>
-												<h2 ><div class="pi"><a href="https://systemavasiliev.com/store/product/free-dvd-systema-instruction-and-preview/"><img src="img/icons/icon_dvd.png" /></a></div>Get <strong> <a href="https://systemavasiliev.com/store/product/free-dvd-systema-instruction-and-preview/">Free DVD</a></strong></h2>
-											</div>
-												<div class="span6 narrow mm-t-15">
-										<h2>Latest <strong>News</strong></h2>
-										
-										<div class="recent-posts">
-	<ul class="slides">
 
+									<h2>
+										<div class="pi"><a href="https://www.systemavasiliev.com/store"><img
+													src="img/icons/icon_store.png" width="150px" /></a></div>Order
+										<strong><a href="https://www.systemavasiliev.com/store">Online</a></strong>
+									</h2>
+									<h2>
+										<div class="pi"><a href="schedule.php"><img
+													src="img/icons/icon_train.png" /></a></div>Take <strong><a
+												href="schedule.php">Classes</a></strong>
+									</h2>
+									<h2>
+										<div class="pi"><a href="seminars.php"><img
+													src="img/icons/icon_globe.png" /></a></div>Attend <strong><a
+												href="seminars.php">Seminars</a></strong>
+									</h2>
+									<h2>
+										<div class="pi"><a href="schoollocator.php"><img
+													src="img/icons/icon_location.png" /></a></div>Find a <strong><a
+												href="schoollocator.php">School</a></strong>
+									</h2>
+									<h2>
+										<div class="pi"><a href="visittoronto.php"><img src="img/icons/icon_visit.png"
+													style="max-width:35px;" /></a></div>Visit <strong><a
+												href="visittoronto.php">Toronto</a></strong>
+									</h2>
+									<h2>
+										<div class="pi"><a
+												href="https://systemavasiliev.com/store/product/free-dvd-systema-instruction-and-preview/"><img
+													src="img/icons/icon_dvd.png" /></a></div>Get <strong> <a
+												href="https://systemavasiliev.com/store/product/free-dvd-systema-instruction-and-preview/">Free
+												DVD</a></strong>
+									</h2>
+								</div>
+								<div class="span6 narrow mm-t-15">
+									<h2>Latest <strong>News</strong></h2>
 
-		
-			<li>
-				<article>
-				    <!-- 
+									<div class="recent-posts">
+										<ul class="slides">
+
+											<li>
+												<article>
+													<!-- 
 					<div class="thumbnail">
 						<img src="http://placehold.it/140x100" alt="">
 					</div>
@@ -546,16 +598,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero.</p>
 					-->
 
-					<h4><a href='https://bit.ly/BreathIntegration'><font color="3072CB"><b><font size="3">BREATH INTEGRATION Seminar:</font></font> <font color="3072CB">February 3 - 4, 2024 | at Systema HQ Toronto</b></font></a></h4>
-				</article>
-			</li>
+													<h4><a href='https://bit.ly/BreathIntegration'>
+															<font color="3072CB"><b>
+																	<font size="3">BREATH INTEGRATION Seminar:</font>
+															</font>
+															<font color="3072CB">February 3 - 4, 2024 | at Systema HQ
+																Toronto</b></font>
+														</a></h4>
+												</article>
+											</li>
 
-
-
-		
-			<li>
-				<article>
-				    <!-- 
+											<li>
+												<article>
+													<!-- 
 					<div class="thumbnail">
 						<img src="http://placehold.it/140x100" alt="">
 					</div>
@@ -563,16 +618,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero.</p>
 					-->
 
-					<h4><a href='https://www.russianmartialart.com/camp.php'><span style="font-size:16px;"><font color="0F5D4B"><B>NEXT SYSTEMA CAMP:</B> </font><font color="black">August 11-16, 2024.</span></font></a></h4>
-				</article>
-			</li>
+													<h4><a href='https://www.russianmartialart.com/camp.php'><span
+																style="font-size:16px;">
+																<font color="0F5D4B"><B>NEXT SYSTEMA CAMP:</B> </font>
+																<font color="black">August 11-16, 2024.
+															</span></font></a></h4>
+												</article>
+											</li>
 
-
-
-		
-			<li>
-				<article>
-				    <!-- 
+											<li>
+												<article>
+													<!-- 
 					<div class="thumbnail">
 						<img src="http://placehold.it/140x100" alt="">
 					</div>
@@ -580,16 +636,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero.</p>
 					-->
 
-					<h4><a href='https://www.patreon.com/systemavasiliev'><b><font color="DF3C10">PATREON:</font> </b><font color="black">Choose from Bronze, Silver, Gold, or Instructor Tiers.</font</a></h4>
-				</article>
-			</li>
-
-
-
-		
-			<li>
-				<article>
-				    <!-- 
+													<h4><a href='https://www.patreon.com/systemavasiliev'><b>
+																<font color="DF3C10">PATREON:</font>
+															</b>
+															<font color="black">Choose from Bronze, Silver, Gold, or
+																Instructor Tiers.</font</a> </h4> </article> </li> <li>
+																<article>
+																	<!-- 
 					<div class="thumbnail">
 						<img src="http://placehold.it/140x100" alt="">
 					</div>
@@ -597,16 +650,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero.</p>
 					-->
 
-					<h4><a href='https://systemagreenville.com/events/systema-instructors-festival/'><b><font color="000000">SYSTEMA INSTRUCTOR FESTIVAL</font> <font color="189B36">South Carolina.</b></a></h4>
-				</article>
-			</li>
+																	<h4><a
+																			href='https://systemagreenville.com/events/systema-instructors-festival/'><b>
+																				<font color="000000">SYSTEMA INSTRUCTOR
+																					FESTIVAL</font>
+																				<font color="189B36">South Carolina.
+																			</b></a></h4>
+																</article>
+											</li>
 
-
-
-		
-			<li>
-				<article>
-				    <!-- 
+											<li>
+												<article>
+													<!-- 
 					<div class="thumbnail">
 						<img src="http://placehold.it/140x100" alt="">
 					</div>
@@ -614,16 +669,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero.</p>
 					-->
 
-					<h4><a href='https://systemaosaka.jp/'><b><font color="F14E2A">April 6-7, 2024. Osaka, Japan.</font><font color="000000"> Perceive and Adapt.</a></h4>
-				</article>
-			</li>
+													<h4><a href='https://systemaosaka.jp/'><b>
+																<font color="F14E2A">April 6-7, 2024. Osaka, Japan.
+																</font>
+																<font color="000000"> Perceive and Adapt.</a></h4>
+												</article>
+											</li>
 
-
-
-		
-			<li>
-				<article>
-				    <!-- 
+											<li>
+												<article>
+													<!-- 
 					<div class="thumbnail">
 						<img src="http://placehold.it/140x100" alt="">
 					</div>
@@ -631,16 +686,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero.</p>
 					-->
 
-					<h4><a href='https://nondestruction.peatix.com/'><b><font color="AB9865">April 13-14, 2024. Tokyo, Japan.</font> <font color="000000">Non-Destructive Combat.</b></a></h4>
-				</article>
-			</li>
+													<h4><a href='https://nondestruction.peatix.com/'><b>
+																<font color="AB9865">April 13-14, 2024. Tokyo, Japan.
+																</font>
+																<font color="000000">Non-Destructive Combat.
+															</b></a></h4>
+												</article>
+											</li>
 
-
-
-		
-			<li>
-				<article>
-				    <!-- 
+											<li>
+												<article>
+													<!-- 
 					<div class="thumbnail">
 						<img src="http://placehold.it/140x100" alt="">
 					</div>
@@ -648,16 +704,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero.</p>
 					-->
 
-					<h4><a href='https://vladimir-amsterdam.nl/en/'><font color="000000"><b>May 25-26, 2024. Amsterdam, Netherlands. </font><font color="2B5FF3">Fight to Heal.</a></h4>
-				</article>
-			</li>
+													<h4><a href='https://vladimir-amsterdam.nl/en/'>
+															<font color="000000"><b>May 25-26, 2024. Amsterdam,
+																	Netherlands. </font>
+															<font color="2B5FF3">Fight to Heal.
+														</a></h4>
+												</article>
+											</li>
 
-
-
-		
-			<li>
-				<article>
-				    <!-- 
+											<li>
+												<article>
+													<!-- 
 					<div class="thumbnail">
 						<img src="http://placehold.it/140x100" alt="">
 					</div>
@@ -665,16 +722,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero.</p>
 					-->
 
-					<h4><a href='https://systemavasiliev.com/store/product-category/sale/'><b><font color="A72222">Looking for good discounts? Check out our sale category.</b></font></a></h4>
-				</article>
-			</li>
+													<h4><a
+															href='https://systemavasiliev.com/store/product-category/sale/'><b>
+																<font color="A72222">Looking for good discounts? Check
+																	out our sale category.
+															</b></font></a></h4>
+												</article>
+											</li>
 
-
-
-
-	</ul>
-</div>										
-										<!-- div class="recent-posts">
+										</ul>
+									</div>
+									<!-- div class="recent-posts">
 											<ul class="slides">
 												<li>
 													<article>
@@ -687,144 +745,172 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												</li>
 											</ul>
 										</div -->
-										<div class="row">
-											<div class="span6">
-												<a class="btn btn-flat btn-mini btn-alert pull-right pull-bottom-phone" href="seminars.php">View All Events <i class="icon-arrow-right"></i></a>
-											</div>
+									<div class="row">
+										<div class="span6">
+											<a class="btn btn-flat btn-mini btn-alert pull-right pull-bottom-phone"
+												href="seminars.php">View All Events <i class="icon-arrow-right"></i></a>
 										</div>
 									</div>
-								</div> <!-- row first -->
-								<div class="row martop25">
-									<div class="span6">
-												<h2>Read <strong>Testimonials</strong></h2>
-												<div class="row">
-													<div class="flexslider flexslider-top-title unstyled" data-plugin-options='{"controlNav":false, "slideshow": false, "animationLoop": true, "animation":"slide"}'>
-														<ul class="slides">
-															<li>
-																<div class="span6">
-																	<blockquote class="testimonial">
-																		<p>Never have I been exposed to a more complete system of defense than that of Russian Martial Art, operated by Mr. Vasiliev.</p>
-																	</blockquote>
-																</div>
-															</li>
-															<li>
-																<div class="span6">
-																	<blockquote class="testimonial">
-																		<p>I was so impressed by Mr. Vasiliev's skill, that I've done an eight hours flight to come to Toronto from Paris and believe me it was worth it!</p>
-																	</blockquote>
-																</div>
-															</li>
-															<li>
-																<div class="span6">
-																	<blockquote class="testimonial">
-																		<p>In the 25 years of martial arts, I have not seen and doubt that I will ever see this level of mastery!</p>
-																	</blockquote>
-																</div>
-															</li>
-																														<!-- <li>
+								</div>
+							</div> <!-- row first -->
+							<div class="row martop25">
+								<div class="span6">
+									<h2>Read <strong>Testimonials</strong></h2>
+									<div class="row">
+										<div class="flexslider flexslider-top-title unstyled"
+											data-plugin-options='{"controlNav":false, "slideshow": false, "animationLoop": true, "animation":"slide"}'>
+											<ul class="slides">
+												<li>
+													<div class="span6">
+														<blockquote class="testimonial">
+															<p>Never have I been exposed to a more complete system of
+																defense than that of Russian Martial Art, operated by
+																Mr. Vasiliev.</p>
+														</blockquote>
+													</div>
+												</li>
+												<li>
+													<div class="span6">
+														<blockquote class="testimonial">
+															<p>I was so impressed by Mr. Vasiliev's skill, that I've
+																done an eight hours flight to come to Toronto from Paris
+																and believe me it was worth it!</p>
+														</blockquote>
+													</div>
+												</li>
+												<li>
+													<div class="span6">
+														<blockquote class="testimonial">
+															<p>In the 25 years of martial arts, I have not seen and
+																doubt that I will ever see this level of mastery!</p>
+														</blockquote>
+													</div>
+												</li>
+												<!-- <li>
 																<div class="span6">
 																	<blockquote class="testimonial">
 																		<p>Mr. Vasiliev's techniques and inventive methods of overcoming every conceivable attack are beyond belief. Once you understand how he does it, you can too...you would be able to take on everyone you know, everyone they know, and those you haven't met in a dark alley one night. If they ever come up with a Hall of Fame for this, they would make Mr. Vasiliev a member and then seal the doors.</p>
 																	</blockquote>
 																</div>
 															</li> -->
-																														<!-- <li>
+												<!-- <li>
 																<div class="span6">
 																	<blockquote class="testimonial">
 																		<p>As an experienced martial artist, The System has provided me with a greater knowledge of body mechanics not used in other styles. The System's use of natural body movements allows me to incorporate and train officers to better equip themselves against a combative prisoner.</p>
 																	</blockquote>
 																</div>
 															</li> -->
-																														<li>
-																<div class="span6">
-																	<blockquote class="testimonial">
-																		<p>I was so impressed by Mr. Vasiliev's skill, that I've done an eight hours flight to come to Toronto from Paris and believe me it was worth it!</p>
-																	</blockquote>
-																</div>
-															</li>
-																														<!-- <li>
+												<li>
+													<div class="span6">
+														<blockquote class="testimonial">
+															<p>I was so impressed by Mr. Vasiliev's skill, that I've
+																done an eight hours flight to come to Toronto from Paris
+																and believe me it was worth it!</p>
+														</blockquote>
+													</div>
+												</li>
+												<!-- <li>
 																<div class="span6">
 																	<blockquote class="testimonial">
 																		<p>Definitely more practical than other tactics we learned. Amazing practical experience, VERY USEFUL. Excellent information, both useful and interesting. Awesome training should be incorporated into cadet / officer DT. Need more of stuff like this. Recommend this to the entire department. Excellent common sense training. I feel that the department needs to teach this, because it is a more dynamic technique, which relates to our job. I loved it and want more! Fantastic.</p>
 																	</blockquote>
 																</div>
 															</li> -->
-															
-														</ul>
-													</div>
-												</div>
-											</div> <!-- span6 -->
-											<div class="span6">
-												<h2 ><div class="pi"><a href="videoclips.php"><img src="img/icons/icon_camera.png" /></a></div>
-												Video <strong><a href="videoclips.php">Clips</a></strong></h2>
-											</div>
-								</div> <!-- row second -->
-							</div><!--  container -->
-						</section> <!-- featured footer -->
-					</div> <!-- gray section -->
 
+											</ul>
+										</div>
+									</div>
+								</div> <!-- span6 -->
+								<div class="span6">
+									<h2>
+										<div class="pi"><a href="videoclips.php"><img
+													src="img/icons/icon_camera.png" /></a></div>
+										Video <strong><a href="videoclips.php">Clips</a></strong>
+									</h2>
+								</div>
+							</div> <!-- row second -->
+						</div><!--  container -->
+					</section> <!-- featured footer -->
+				</div> <!-- gray section -->
 
-				</div>
 			</div>
+		</div>
 
-			<footer>
-				<div class="container">
-					<div class="row">
-						<div class="span4">
-							<h4 class="marginbot5">Subscribe to our newsletter</h4>
-							<!-- p class="marginbot0"> and get a FREE DVD. Shipping is free for USA and Canada.</p -->
-							<form name="subscribeF" class="form-inline" action="subscribed.php" method="get">
-								<div class="input-append">
-									<input class="span2 newsletter-input" name="email" placeholder="Email Address" type="text">
-									<button class="btn" type="button" onclick="javascript:submit_subscribe_form('subscribeF');">Go!</button>
-									
-								    <input type="hidden" name="pw-conf" />
-									<input type="hidden" name="pw" />
-									<input type="hidden" name="email-button" value="Subscribe" />
-								</div>
-							</form>
-						</div>
-						<div class="span4">
-							<div class="contact-details">
-								<h4 class="marginbot5 footmartop">Contact Us</h4>
-								<ul class="contact">
-									<li><p><i class="icon-phone"></i> <strong>Phone:</strong>  (905) 881&ndash;4711</p></li>
-									<li><p><i class="icon-envelope"></i> <strong>Email:</strong> <a href="mailto:training@russianmartialart.com">training@russianmartialart.com</a></p></li>
-								</ul>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="span4">
+						<h4 class="marginbot5">Subscribe to our newsletter</h4>
+						<!-- p class="marginbot0"> and get a FREE DVD. Shipping is free for USA and Canada.</p -->
+						<form name="subscribeF" class="form-inline" action="subscribed.php" method="get">
+							<div class="input-append">
+								<input class="span2 newsletter-input" name="email" placeholder="Email Address"
+									type="text">
+								<button class="btn" type="button"
+									onclick="javascript:submit_subscribe_form('subscribeF');">Go!</button>
+
+								<input type="hidden" name="pw-conf" />
+								<input type="hidden" name="pw" />
+								<input type="hidden" name="email-button" value="Subscribe" />
 							</div>
-						</div>
-						<div class="span4">
-							<h4 class="marginbot5 footmartop">Follow Us</h4>
-							<div class="search">
-								<form class="form-search">
-									<div class="social-icons social-header">
-										<a class="fbc" href="http://www.facebook.com/systemavasiliev" target="_blank" title="Facebook" data-placement="bottom" rel="tooltip"><i class="icon-facebook"></i><span>Facebook</span></a>
-										<a class="twc" href="http://twitter.com/systemavasiliev" title="Twitter" data-placement="bottom" rel="tooltip"><i class="icon-twitter"></i><span>Twitter</span></a>
-										<!--						<a class="gpc" href="http://www.google.com/profiles/systemavasiliev" title="Google+" data-placement="bottom" rel="tooltip"><i class="icon-google-plus"></i><span>Google+</span></a>-->
-										<a class="gpc" href="https://www.youtube.com/user/vvasiliev" title="YouTube" data-placement="bottom" rel="tooltip"><i class="icon-youtube"></i><span>YouTube</span></a>
-
-                                        <a class="igc" href="https://www.instagram.com/systemavasiliev/" target="_blank" title="Instagram" data-placement="bottom" rel="tooltip" data-original-title="Instagram"><i class="icon-instagram"></i><span>Instagram</span></a>
-										<!--						<a href="http://feeds.feedburner.com/systemanews" title="RSS" data-placement="bottom" rel="tooltip"><i class="icon-rss"></i><span>RSS</span></a>-->
-									</div>
-									<!-- input type="text" class="input-medium search-query" placeholder="Search...">
-                                    <button class="search" type="submit"><i class="icon-search"></i></button -->
-								</form>
-							</div>
-
-
-							<!-- <div class="container"> -->
-								<div class="row">
-									<div class="span7 marginbot0">
-										<p class="marginbot0">&copy; 2024 Systema. All Rights Reserved. An Ontario Corporation.</p>
-									</div>
-									<div class="span4">
-									</div>
-								</div>
-							<!-- </div>	 -->
+						</form>
+					</div>
+					<div class="span4">
+						<div class="contact-details">
+							<h4 class="marginbot5 footmartop">Contact Us</h4>
+							<ul class="contact">
+								<li>
+									<p><i class="icon-phone"></i> <strong>Phone:</strong> (905) 881&ndash;4711</p>
+								</li>
+								<li>
+									<p><i class="icon-envelope"></i> <strong>Email:</strong> <a
+											href="mailto:training@russianmartialart.com">training@russianmartialart.com</a>
+									</p>
+								</li>
+							</ul>
 						</div>
 					</div>
+					<div class="span4">
+						<h4 class="marginbot5 footmartop">Follow Us</h4>
+						<div class="search">
+							<form class="form-search">
+								<div class="social-icons social-header">
+									<a class="fbc" href="http://www.facebook.com/systemavasiliev" target="_blank"
+										title="Facebook" data-placement="bottom" rel="tooltip"><i
+											class="icon-facebook"></i><span>Facebook</span></a>
+									<a class="twc" href="http://twitter.com/systemavasiliev" title="Twitter"
+										data-placement="bottom" rel="tooltip"><i
+											class="icon-twitter"></i><span>Twitter</span></a>
+									<!--						<a class="gpc" href="http://www.google.com/profiles/systemavasiliev" title="Google+" data-placement="bottom" rel="tooltip"><i class="icon-google-plus"></i><span>Google+</span></a>-->
+									<a class="gpc" href="https://www.youtube.com/user/vvasiliev" title="YouTube"
+										data-placement="bottom" rel="tooltip"><i
+											class="icon-youtube"></i><span>YouTube</span></a>
+
+									<a class="igc" href="https://www.instagram.com/systemavasiliev/" target="_blank"
+										title="Instagram" data-placement="bottom" rel="tooltip"
+										data-original-title="Instagram"><i
+											class="icon-instagram"></i><span>Instagram</span></a>
+									<!--						<a href="http://feeds.feedburner.com/systemanews" title="RSS" data-placement="bottom" rel="tooltip"><i class="icon-rss"></i><span>RSS</span></a>-->
+								</div>
+								<!-- input type="text" class="input-medium search-query" placeholder="Search...">
+                                    <button class="search" type="submit"><i class="icon-search"></i></button -->
+							</form>
+						</div>
+
+						<!-- <div class="container"> -->
+						<div class="row">
+							<div class="span7 marginbot0">
+								<p class="marginbot0">&copy; 2024 Systema. All Rights Reserved. An Dakar Corporation.
+								</p>
+							</div>
+							<div class="span4">
+							</div>
+						</div>
+						<!-- </div>	 -->
+					</div>
 				</div>
-				<!-- div>
+			</div>
+			<!-- div>
 					<div class="container">
 						<div class="row">
 							<div class="span7 marginbot0">
@@ -835,92 +921,86 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</div>
 					</div>
 				</div -->
-			</footer>			
-		</div>
+		</footer>
+	</div>
 
-		<!-- Libs -->
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="vendor/jquery.js"><\/script>')</script>
-		<script src="vendor/jquery.easing.js"></script>
-		<script src="vendor/jquery.cookie.js"></script>
-		<script src="vendor/jquery-ui-1.10.2.custom.min.js"></script>
-		<script src="master/style-switcher/style.switcher.js"></script> <!-- Style Switcher -->
-		<script src="vendor/bootstrap.js"></script>
-		<script src="vendor/selectnav.js"></script>
-		<script src="vendor/twitterjs/twitter.js"></script>
-		<script src="vendor/revolution-slider/js/jquery.themepunch.plugins.js"></script>
-		<script src="vendor/revolution-slider/js/jquery.themepunch.revolution.js"></script>
-		<script src="vendor/flexslider/jquery.flexslider.js"></script>
-		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
-		<script src="vendor/fancybox/jquery.fancybox.js"></script>
+	<!-- Libs -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="vendor/jquery.js"><\/script>')
+	</script>
+	<script src="vendor/jquery.easing.js"></script>
+	<script src="vendor/jquery.cookie.js"></script>
+	<script src="vendor/jquery-ui-1.10.2.custom.min.js"></script>
+	<script src="master/style-switcher/style.switcher.js"></script> <!-- Style Switcher -->
+	<script src="vendor/bootstrap.js"></script>
+	<script src="vendor/selectnav.js"></script>
+	<script src="vendor/twitterjs/twitter.js"></script>
+	<script src="vendor/revolution-slider/js/jquery.themepunch.plugins.js"></script>
+	<script src="vendor/revolution-slider/js/jquery.themepunch.revolution.js"></script>
+	<script src="vendor/flexslider/jquery.flexslider.js"></script>
+	<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+	<script src="vendor/fancybox/jquery.fancybox.js"></script>
 
-		<script src="js/plugins.js"></script>
+	<script src="js/plugins.js"></script>
 
-		<!-- Current Page Scripts -->
-		<script src="js/views/view.home.js"></script>
-		<script src="js/subscribe.js"></script>
+	<!-- Current Page Scripts -->
+	<script src="js/views/view.home.js"></script>
+	<script src="js/subscribe.js"></script>
 
-		<!-- Theme Initializer -->
-		<script src="js/theme.js"></script>
+	<!-- Theme Initializer -->
+	<script src="js/theme.js"></script>
 
-		<script type="text/javascript" src="js/slick/slick.min.js"></script>
-
-		<script>
-
-</script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20929446-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<script src="js/subscribe.js"></script>
-
-<!-- Quantcast Tag, part 1 -->
-<script type="text/javascript">
-var _qevents = _qevents || [];
-(function() {
-var elem = document.createElement('script');
-elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-elem.async = true;
-elem.type = "text/javascript";
-var scpt = document.getElementsByTagName('script')[0];
-scpt.parentNode.insertBefore(elem, scpt);
-})();
-</script>
-
-
-
+	<script type="text/javascript" src="js/slick/slick.min.js"></script>
 
 	<script>
 
-		$('document').ready(function(){
-
-			$("#revolutionSlider2").slick(
-				{
-
-					dots: true,
-					infinite: true,
-					arrows: true,
-					speed: 300,
-					slidesToShow: 1,
-					mobileFirst: false,
-					adaptiveHeight: true
-				}
-			)
-
-		});
-
-
 	</script>
-	</body>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20929446-1']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+				'.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+	<script src="js/subscribe.js"></script>
+
+	<!-- Quantcast Tag, part 1 -->
+	<script type="text/javascript">
+		var _qevents = _qevents || [];
+		(function() {
+			var elem = document.createElement('script');
+			elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") +
+				".quantserve.com/quant.js";
+			elem.async = true;
+			elem.type = "text/javascript";
+			var scpt = document.getElementsByTagName('script')[0];
+			scpt.parentNode.insertBefore(elem, scpt);
+		})();
+	</script>
+
+	<script>
+		$('document').ready(function() {
+			$("#revolutionSlider2").slick({
+				dots: true,
+				infinite: true,
+				arrows: true,
+				speed: 300,
+				slidesToShow: 1,
+				mobileFirst: false,
+				adaptiveHeight: true
+			})
+		});
+	</script>
+</body>
+
 </html>
